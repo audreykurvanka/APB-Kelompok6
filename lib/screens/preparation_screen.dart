@@ -95,7 +95,7 @@ class PreparationScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 28),
                     const Text(
-                      'Fitur penghilang noise aktif!',
+                      'Siapkan posisi perekaman dengan nyaman',
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         color: Colors.white,
@@ -105,7 +105,7 @@ class PreparationScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      'Suara latar akan difilter secara otomatis.',
+                      'Hindari suara bising agar hasil rekaman lebih jelas.',
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         color: Colors.white.withOpacity(0.85),
