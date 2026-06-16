@@ -22,8 +22,8 @@ class ResultScreen extends StatelessWidget {
 
   String get _analisis {
     if (skor < 30) return 'Pola suara respirasi dalam batas normal. Tidak ditemukan anomali signifikan pada rekaman fonetik Anda.';
-    if (skor < 60) return 'Ditemukan pola suara yang tidak konsisten. Terdapat frekuensi abnormal pada beberapa segmen rekaman.';
-    return 'Terdapat frekuensi abnormal yang signifikan pada rekaman. Disarankan segera konsultasi ke dokter spesialis.';
+    if (skor < 60) return 'Ditemukan pola suara yang kurang konsisten pada beberapa bagian rekaman. Pengguna disarankan melakukan pemeriksaan ulang.';
+    return 'Terdapat indikasi perubahan suara yang cukup signifikan pada rekaman. Pengguna disarankan melakukan pemeriksaan lanjutan ke tenaga kesehatan.';
   }
 
   String get _saran1 {
