@@ -84,7 +84,7 @@ class PreparationScreen extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     const Text(
-                      'Pastikan Anda berada di\nlingkungan yang tenang dan\nMikrofon Anda berfungsi\ndengan baik',
+                      'Pastikan Anda berada di\nruangan yang tenang dan\nmikrofon berfungsi\ndengan baik',
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         color: Colors.white,
