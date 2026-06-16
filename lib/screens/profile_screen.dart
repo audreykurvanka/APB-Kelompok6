@@ -138,7 +138,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
             const SizedBox(height: 24),
 
             // Edit/view data kesehatan
-            _sectionTitle('Data Kesehatan'),
+            _sectionTitle('Data Profil dan Kesehatan'),
             Container(
               decoration: BoxDecoration(
                 color: Colors.white,
@@ -203,7 +203,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   );
                 },
                 icon: const Icon(Icons.logout, color: Colors.red),
-                label: const Text('Keluar', style: TextStyle(color: Colors.red)),
+                label: const Text('Keluar Akun', style: TextStyle(color: Colors.red)),
                 style: OutlinedButton.styleFrom(
                   side: const BorderSide(color: Colors.red),
                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
