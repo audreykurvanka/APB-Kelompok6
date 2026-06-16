@@ -1,17 +1,29 @@
-# inspiracheck
+# RespiraCheck
 
-A new Flutter project.
+RespiraCheck adalah aplikasi mobile berbasis Flutter yang digunakan untuk membantu pengguna melakukan pemeriksaan awal kondisi respirasi melalui alur pemeriksaan sederhana. Aplikasi ini menyediakan fitur autentikasi pengguna, pengisian data profil, pemeriksaan suara, tampilan hasil pemeriksaan, riwayat hasil, serta tips kesehatan pernapasan.
 
-## Getting Started
+## Fitur Aplikasi
 
-This project is a starting point for a Flutter application.
+* Registrasi dan login pengguna
+* Pengelolaan data profil pengguna
+* Pemeriksaan respirasi berbasis input suara
+* Tampilan hasil pemeriksaan
+* Riwayat pemeriksaan pengguna
+* Tips kesehatan pernapasan
+* Integrasi Firebase untuk autentikasi dan penyimpanan data
 
-A few resources to get you started if this is your first Flutter project:
+## Teknologi yang Digunakan
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* Flutter
+* Dart
+* Firebase Authentication
+* Firebase Realtime Database
+* Provider
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Struktur Halaman
+
+Aplikasi ini terdiri dari beberapa halaman utama, yaitu halaman splash screen, login, registrasi, beranda, pemeriksaan, analisis, hasil pemeriksaan, riwayat, tips kesehatan, dan profil pengguna.
+
+## Tujuan Pengembangan
+
+Aplikasi ini dikembangkan sebagai media pendukung pemeriksaan awal kondisi pernapasan secara sederhana dan mudah digunakan oleh pengguna. Hasil pemeriksaan pada aplikasi ini tidak menggantikan diagnosis dokter, tetapi dapat menjadi informasi awal bagi pengguna untuk lebih memperhatikan kondisi kesehatan respirasi.
