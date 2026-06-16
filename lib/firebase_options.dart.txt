@@ -1,0 +1,17 @@
+// FILE INI AKAN DI-GENERATE OTOMATIS oleh FlutterFire CLI
+// Jalankan perintah berikut setelah setup Firebase:
+//
+//   dart pub global activate flutterfire_cli
+//   flutterfire configure
+//
+// Perintah di atas akan generate file firebase_options.dart secara otomatis
+// dan menggantikan file ini.
+//
+// Jika tidak memakai FlutterFire CLI, bisa pakai cara manual:
+// Ganti Firebase.initializeApp() di main.dart dengan:
+//
+//   await Firebase.initializeApp(
+//     options: DefaultFirebaseOptions.currentPlatform,
+//   );
+//
+// Dan isi DefaultFirebaseOptions dari nilai di Firebase Console > Project Settings.

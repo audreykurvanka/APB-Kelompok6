@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "870544938148",
+    "project_id": "respiracheck-6ffb8",
+    "storage_bucket": "respiracheck-6ffb8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870544938148:android:996079ab466a4c75210231",
+        "android_client_info": {
+          "package_name": "com.example.inspiracheck"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBtDsYKsfz59U6h4-idNQy1BqEIjB4hbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
