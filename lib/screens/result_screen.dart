@@ -140,7 +140,7 @@ class ResultScreen extends StatelessWidget {
               const SizedBox(height: 24),
 
               // Analisis
-              const Text('Analisis Suara dan Batuk',
+              const Text('Analisis Rekaman Suara',
                   style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold, color: Color(0xFF1A1A2E))),
               const SizedBox(height: 8),
               Text(_analisis,
