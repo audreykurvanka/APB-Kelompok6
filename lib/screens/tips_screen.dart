@@ -45,6 +45,12 @@ class TipsScreen extends StatelessWidget {
         'desc': 'Tidur 7–8 jam setiap malam membantu sistem pernapasan beristirahat dan memulihkan diri dari paparan polutan harian.',
         'color': const Color(0xFF7E57C2),
       },
+      {
+        'icon': Icons.clean_hands_outlined,
+        'title': 'Jaga Kebersihan Tangan',
+        'desc': 'Cuci tangan secara rutin untuk mengurangi risiko infeksi saluran pernapasan yang dapat menular melalui sentuhan.',
+        'color': const Color(0xFF42A5F5),
+      },
     ];
 
     return Scaffold(
